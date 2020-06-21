@@ -42,10 +42,23 @@ function basefuck4(string) {
 	return b64;	
 }
 
+function JasonTheFuckOutOfThisString(string) {
+	// You ever thought.
+	// I wanna JSON stringify a string
+	string = JSON.stringify(string)
+	// and then... wait for it
+	// Parse it back into a string?
+	string = JSON.parse(string)
+	// yeah me neither :c
+	
+	return string; // If you read to this part of the code go drink some toilet water thanks.
+}
+
 // I don't give a shit what you say it's efficient to make it in functions and change the variable each time.
 result = binaryAndStuff(result)
 result = myThing(result)
 result = basefuck4(result)
+result = JasonTheFuckOutOfThisString(result)
 
 console.log(result.replace("Hello ", "World").replace("World!", "Hello").replace("Hello", "World!").replace("World", "Hello ")) // This is the fucking result now fuck off.
 console.timeEnd("it done in") // stop the timer, hopefully it's not low D;
