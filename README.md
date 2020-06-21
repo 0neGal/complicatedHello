@@ -22,6 +22,3 @@ Sleep deprivation
 
 # Purpose
 None whatsoever.
-
----
-I secretly wanna fucking die holy shit
