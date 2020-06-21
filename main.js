@@ -26,9 +26,26 @@ function myThing(string) {
 	// Encryption standard = 100
 }
 
+function basefuck4(string) {
+	
+	// I would like to congratulate node...
+	// It's terrible and should burn in hell
+	// WHY THE FUCK IS BTOA() AND ATOB() NOT A THING?
+	
+	let b64 = Buffer.from(string).toString("base64")
+	b64 = Buffer.from(b64, "base64").toString("ascii")
+	
+	// This is ineffective.
+	// Stop complaining
+	// That's the fucking point
+	
+	return b64;	
+}
+
 // I don't give a shit what you say it's efficient to make it in functions and change the variable each time.
 result = binaryAndStuff(result)
 result = myThing(result)
+result = basefuck4(result)
 
 console.log(result.replace("Hello ", "World").replace("World!", "Hello").replace("Hello", "World!").replace("World", "Hello ")) // This is the fucking result now fuck off.
 console.timeEnd("it done in")
