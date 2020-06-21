@@ -48,4 +48,4 @@ result = myThing(result)
 result = basefuck4(result)
 
 console.log(result.replace("Hello ", "World").replace("World!", "Hello").replace("Hello", "World!").replace("World", "Hello ")) // This is the fucking result now fuck off.
-console.timeEnd("it done in")
+console.timeEnd("it done in") // stop the timer, hopefully it's not low D;
