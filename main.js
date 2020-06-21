@@ -30,5 +30,5 @@ function myThing(string) {
 result = binaryAndStuff(result)
 result = myThing(result)
 
-console.log(result) // This is the fucking result now fuck off.
+console.log(result.replace("Hello ", "World").replace("World!", "Hello").replace("Hello", "World!").replace("World", "Hello ")) // This is the fucking result now fuck off.
 console.timeEnd("it done in")
