@@ -81,7 +81,17 @@ result = splittySplitFuck(result)
 
 console.log(result.replace("Hello ", "World").replace("World!", "Hello").replace("Hello", "World!").replace("World", "Hello ")) // This is the fucking result now fuck off.
 for (let i = 0; i < process.argv.length; i++) {
-	if (process.argv[i] === "-t") { // I'll just explain what argv is. Specifically process.argv, when starting up a node process you typically write "node file.js" very cool I must admit, then it starts and runs your shit and everything, pretty cool. But what if! But what if! We were to add something to the command... Such as "node file.js boi" we've now added an argument. Yet the program couldn't give less shit currently. That's because we first need to tell the program that it should look for the arg, in this case we go through all the args, since process.argv gives an array of them all. So we'll simply go through them all, check whether one of them is equal to a certain thing, and then we've now implemented arguments with argv specifically process.argv. It is also very important you actually put code inside of the if tag or whatever type of condition tag you use. Either way, remember to put some shit in there. In this case we stop the timer, which means if the argument is not set (the argument being -t) it won't log the timer's time, pretty cool I must admit... That's all folks, thanks for listening to my TED Talk.
+	if (process.argv[i] === "-t") { // I'll just explain what argv is. 
+	// Specifically process.argv, when starting up a node process you typically write "node file.js" very cool I must admit, then it starts and runs your shit and everything, pretty cool. But what if! But what if! 
+	// We were to add something to the command... 
+	// Such as "node file.js boi" we've now added an argument. Yet the program couldn't give less shit currently. 
+	// That's because we first need to tell the program that it should look for the arg, in this case we go through all the args, 
+	// Since process.argv gives an array of them all. So we'll simply go through them all, check whether one of them is equal to a certain thing, and then we've now implemented arguments with argv specifically process.argv.
+	// It is also very important you actually put code inside of the if tag or whatever type of condition tag you use.
+	// Either way,
+	// remember to put some shit in there.
+	// In this case we stop the timer, which means if the argument is not set (the argument being -t) it won't log the timer's time, pretty cool I must admit...
+	// That's all folks, thanks for listening to my TED Talk.
 		console.timeEnd("it done in") // stop the timer, hopefully it's not low D;
 	}
 }
