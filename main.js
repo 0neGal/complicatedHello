@@ -61,4 +61,8 @@ result = basefuck4(result)
 result = JasonTheFuckOutOfThisString(result)
 
 console.log(result.replace("Hello ", "World").replace("World!", "Hello").replace("Hello", "World!").replace("World", "Hello ")) // This is the fucking result now fuck off.
-console.timeEnd("it done in") // stop the timer, hopefully it's not low D;
+for (let i = 0; i < process.argv.length; i++) {
+	if (process.argv[i] === "-t") {
+		console.timeEnd("it done in") // stop the timer, hopefully it's not low D;
+	}
+}
