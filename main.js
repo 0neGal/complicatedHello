@@ -53,11 +53,31 @@ function JasonTheFuckOutOfThisString(string) {
 	return string; // If you read to this part of the code go drink some toilet water thanks.
 }
 
+function splittySplitFuck(string) { // this shit splits!
+	// Very necessary
+	string = string.split(" ").join().replace(",", " ")
+	
+	// Especially this part:
+	string = string.split("n").join().replace(",", "n")
+	string = string.split("i").join().replace(",", "i")
+	string = string.split("c").join().replace(",", "c")
+	string = string.split("e").join().replace(",", "e")
+	
+	// Oh boi, without this everything fails, idk why but it does
+	// Don't remove plz
+	string = string.split("u").join().replace(",", "u")
+	string = string.split("w").join().replace(",", "w")
+	string = string.split("u").join().replace(",", "u")
+	
+	return string
+}
+
 // I don't give a shit what you say it's efficient to make it in functions and change the variable each time.
 result = binaryAndStuff(result)
 result = myThing(result)
 result = basefuck4(result)
 result = JasonTheFuckOutOfThisString(result)
+result = splittySplitFuck(result)
 
 console.log(result.replace("Hello ", "World").replace("World!", "Hello").replace("Hello", "World!").replace("World", "Hello ")) // This is the fucking result now fuck off.
 for (let i = 0; i < process.argv.length; i++) {
