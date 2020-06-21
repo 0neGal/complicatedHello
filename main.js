@@ -20,7 +20,6 @@ function binaryAndStuff(string) {
 }
 
 // Be prepared to see fuckery-doo
-// DH-PL-AS-AS-OI--WY-OI-TH-AS-FH-JS
 function myThing(string) {
 	return string.replace(/--/g, " ").replace(/-/g, "").replace(/DH/g, "H").replace(/PL/g, "e").replace(/AS/g, "l").replace(/OI/g, "o").replace(/WY/g, "W").replace(/TH/g, "r").replace(/FH/g, "d").replace(/JS/g, "!") // fuck you this is efficient
 	// Encryption standard = 100
